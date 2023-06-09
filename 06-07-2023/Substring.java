@@ -4,7 +4,6 @@ public class Substring {
         String rotatedStr = "StrutsHibernateJavaJ2ee";
         int i = 0;
         while(i < str.length()) {
-            System.out.println(rotate(str, i));
             if(rotatedStr.equals(rotate(str, i))) {
                 System.out.println("The strings "+str+" and "+rotatedStr+" are rotated strings of each other");
                 break;
